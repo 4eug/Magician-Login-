@@ -21,7 +21,7 @@ module.exports = {
         "magician-xlg": "24px",
         "magician-lg": "20px",
         "magician-lg-b": "18px",
-        "magician-md": "16px",--
+        "magician-md": "16px",
         "magician-sm": "14px",
         "magician-xsm": "12px",
         "magician-xsm-2": "13px",
