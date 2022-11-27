@@ -14,6 +14,9 @@ module.exports = {
     colors: {
       "magician-purple-primary": "#4D0CAD",
       "magician-purple-secondary": "#8042DE",
+      "magician-gray-light-secondary": "#E1E0DF",
+      "magician-white": "#FFFFFF",
+      "magician-gray-primary": "#969595", 
     },
     
     fontSize: {
@@ -32,7 +35,8 @@ module.exports = {
     height: {
       "magician-px-18": "18px",
       "magician-px-48": "48px",
-      "magician-px-56": "56px"
+      "magician-px-56": "56px",
+      "magician-px-50": "50px"
     },
 
     width: {
