@@ -3,6 +3,29 @@
 @tailwind utilities;
 
 @layer base {
+  body {
+    @apply font-magician-poppins;
+  }
+
+  .btn {
+    @apply h-magician-px-56 lg:h-magician-px-50 text-magician-sm lg:text-magician-xsm-2  font-semibold;
+  }
+
+  .btn-outline {
+    @apply h-magician-px-56 w-full lg:h-magician-px-50 text-magician-sm lg:text-magician-xsm-2  font-semibold;
+  }
+
+  label {
+    @apply text-magician-sm text-magician-gray-primary block;
+  }
+
+  button.purple {
+    @apply btn bg-magician-purple-primary h-magician-px-56 w-magician-px-312 md:h-magician-px-56 md:w-magician-px-368 rounded-[8px] text-magician-white;
+  }
+
+  button.outline-bordered {
+    @apply btn border border-magician-gray-light-secondary h-magician-px-56 w-magician-px-312 md:h-magician-px-56 md:w-magician-px-368 rounded-[8px];
+  }
 }
 
 @layer components {
